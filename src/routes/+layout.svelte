@@ -68,7 +68,7 @@
 	<svelte:fragment slot="pageFooter">
   <AppBar class="flex justify-center items-center w-full">
     <div class="w-full text-center text-sm">
-      <strong>©2024 CoboLab</strong>
+      <strong>© 2024 - Copyright CoboLab, All Rights Reserved.</strong>
     </div>
   </AppBar>
 </svelte:fragment>
