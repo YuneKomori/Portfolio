@@ -59,6 +59,14 @@
 				>
 					GitHub
 				</a>
+				<a
+					class="btn btn-sm variant-filled-surface"
+					href="#"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Contact
+				</a>
 			</svelte:fragment>
 			
 		</AppBar>
