@@ -1,7 +1,11 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
+	<script lang="ts">
+		import { Avatar } from '@skeletonlabs/skeleton';
+		import logo from "$lib/images/logo2.png";
+	</script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
+		<Avatar src={logo} width="w-64" rounded="rounded-full" class="m-0 p-0" />
 		<h2 class="h2">Hi! I'm YuneKomori👋</h2>
 
 		<!-- ボタンのラップ要素で横並びにする -->
