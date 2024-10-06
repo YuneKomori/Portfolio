@@ -61,7 +61,7 @@
 				</a>
 				<a
 					class="btn btn-sm variant-filled-surface"
-					href="#"
+					href="mailto:yune.komori0103art@gmail.com?"
 					target="_blank"
 					rel="noreferrer"
 				>
