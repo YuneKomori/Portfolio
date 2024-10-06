@@ -3,16 +3,30 @@
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">Hi! I'm YuneKomori✋</h2>
-		<div class="flex justify-center space-x-2">
+
+		<!-- ボタンのラップ要素で横並びにする -->
+		<div class="flex justify-center space-x-2 w-full">
+			<!-- 最新のブログを読むボタン -->
 			<a
-				class="btn variant-filled"
+				class="btn variant-filled w-full text-center"
 				href="https://skeleton.dev/"
 				target="_blank"
 				rel="noreferrer"
 			>
-				Launch Documentation
+				最新のブログを読む
+			</a>
+
+			<!-- About meボタン -->
+			<a
+				class="btn variant-filled w-full text-center"
+				href="https://skeleton.dev/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				About me
 			</a>
 		</div>
+
 		<div class="space-y-2">
 			<p>Try editing the following:</p>
 			<p><code class="code">/src/routes/+layout.svelte</code></p>
@@ -20,6 +34,7 @@
 		</div>
 	</div>
 </div>
+
 
 <style lang="postcss">
 	figure {
@@ -34,6 +49,7 @@
 		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
 			glow 5s linear infinite;
 	}
+
 	@keyframes glow {
 		0% {
 			@apply bg-primary-400/50;
