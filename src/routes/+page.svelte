@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import logo from "$lib/images/logo2.png";
-  </script>
+</script>
   
+
   <div class="container h-full mx-auto flex justify-center items-center">
 	<!-- Flexboxを使って左右に分割 -->
 	<div class="flex w-full flex-col md:flex-row justify-between items-center space-x-0 md:space-x-10">
 	  <!-- 左側：画像 -->
 	  <div class="flex-shrink-0 mb-4 md:mb-0">
-		<Avatar src={logo} width="w-32 md:w-80" rounded="rounded-full"  />
+		<Avatar src={logo} width="w-32 md:w-80" rounded="rounded-full" />
 	  </div>
   
 	  <!-- 右側：テキストとボタン -->
@@ -42,14 +43,9 @@
 		  <p><code class="code">/src/routes/+layout.svelte</code></p>
 		  <p><code class="code">/src/routes/+page.svelte</code></p>
 		</div>
-		<div>
-			<div class="space-y-2">
-				<p>My skil</p>
-				<p><code class="code">/src/routes/+layout.svelte</code></p>
-				<p><code class="code">/src/routes/+page.svelte</code></p>
-			  </div>
-		</div>
+
 	  </div>
+	  
 	</div>
   </div>
   
