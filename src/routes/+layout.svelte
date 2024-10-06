@@ -65,4 +65,14 @@
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
+	<svelte:fragment slot="pageFooter">
+  <AppBar class="flex justify-center items-center w-full">
+    <div class="w-full text-center text-sm">
+      <strong>©2024 CoboLab</strong>
+    </div>
+  </AppBar>
+</svelte:fragment>
+
+
+
 </AppShell>
