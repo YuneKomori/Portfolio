@@ -1,6 +1,18 @@
 <script lang="ts">
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import logo from "$lib/images/logo2.png";
+	let pageViewCount = 0;
+
+  // クライアント側でのみlocalStorageを使用するようにする
+  if (typeof window !== 'undefined') {
+    if (localStorage.getItem('pageViewCount')) {
+      pageViewCount = parseInt(localStorage.getItem('pageViewCount') || '0');
+    }
+  
+    // ページビューを増加させて保存
+    pageViewCount += 1;
+    localStorage.setItem('pageViewCount', pageViewCount.toString());
+  }
 </script>
   
 
@@ -16,7 +28,8 @@
 	  <div class="flex-grow text-center md:text-right space-y-10">
 		<!-- レスポンシブなテキストサイズ -->
 		<h2 class="h2 text-2xl md:text-4xl lg:text-6xl font-bold">Hi! I'm YuneKomori👋</h2>
-  
+		<h3 class="h3 text-xl md:text-xl lg:text-xl font-bold">I'm coding leisurely every day🐢🐢🐢<br></h3>
+
 		<!-- ボタンをレスポンシブで横並びに配置 -->
 		<div class="flex flex-col md:flex-row justify-center md:justify-end space-y-2 md:space-y-0 md:space-x-2 w-full">
 		  <a
@@ -37,32 +50,13 @@
 			About me
 		  </a>
 		</div>
-  
-		<div class="space-y-2">
-		  <p>Try editing the following:</p>
-		  <p><code class="code">/src/routes/+layout.svelte</code></p>
-		  <p><code class="code">/src/routes/+page.svelte</code></p>
-		</div>
-
+		<p>This page has been viewed {pageViewCount} times on this device.</p>
 	  </div>
 	  
 	</div>
   </div>
   
   <style lang="postcss">
-	figure {
-	  @apply flex relative flex-col;
-	}
-  
-	figure svg,
-	.img-bg {
-	  @apply w-64 h-64 md:w-80 md:h-80;
-	}
-  
-	.img-bg {
-	  @apply absolute z-[-1] rounded-full blur-[50px] transition-all;
-	  animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite, glow 5s linear infinite;
-	}
   
 	@keyframes glow {
 	  0% {
