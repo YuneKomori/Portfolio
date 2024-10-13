@@ -13,45 +13,66 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
-                    <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                    <div class="card  card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
                             class="btn-icon btn-icon-xl variant-soft-primary"><i
                                 class="fa-solid fa-laptop-code"></i></span>
                         <h3 class="h3">CoboLab.dev</h3>
                         <p>自分の経歴やプロダクトをまとめるポートフォリオを作成しました</p>
                     </div>
 
-                    <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
-                        class="btn-icon btn-icon-xl variant-soft-primary"><i
-                            class="fa-solid fa-laptop-code"></i></span>
-                            <h3 class="h3">プロダクトのタイトル</h3>
-                    <p>プロダクトの説明</p>
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                            class="btn-icon btn-icon-xl variant-soft-primary"><i
+                                class="fa-solid fa-laptop-code"></i></span>
+                        <h3 class="h3">プロダクトのタイトル</h3>
+                        <p>プロダクトの説明</p>
                     </div>
-                    <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
-                        class="btn-icon btn-icon-xl variant-soft-primary"><i
-                            class="fa-solid fa-laptop-code"></i></span>
-                            <h3 class="h3">プロダクトのタイトル</h3>
-                    <p>プロダクトの説明</p>
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                            class="btn-icon btn-icon-xl variant-soft-primary"><i
+                                class="fa-solid fa-laptop-code"></i></span>
+                        <h3 class="h3">プロダクトのタイトル</h3>
+                        <p>プロダクトの説明</p>
                     </div>
-                    <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
-                        class="btn-icon btn-icon-xl variant-soft-primary"><i
-                            class="fa-solid fa-laptop-code"></i></span>
-                    <h3 class="h3">プロダクトのタイトル</h3>
-                    <p>プロダクトの説明</p>
-                </div>
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                            class="btn-icon btn-icon-xl variant-soft-primary"><i
+                                class="fa-solid fa-laptop-code"></i></span>
+                        <h3 class="h3">プロダクトのタイトル</h3>
+                        <p>プロダクトの説明</p>
+                    </div>
 
-                <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
-                    class="btn-icon btn-icon-xl variant-soft-primary"><i
-                        class="fa-solid fa-laptop-code"></i></span>
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                            class="btn-icon btn-icon-xl variant-soft-primary"><i
+                                class="fa-solid fa-laptop-code"></i></span>
                         <h3 class="h3">プロダクトのタイトル</h3>
-                <p>プロダクトの説明</p>
-                </div>
-                <div class="card variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
-                    class="btn-icon btn-icon-xl variant-soft-primary"><i
-                        class="fa-solid fa-laptop-code"></i></span>
+                        <p>プロダクトの説明</p>
+                    </div>
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                            class="btn-icon btn-icon-xl variant-soft-primary"><i
+                                class="fa-solid fa-laptop-code"></i></span>
                         <h3 class="h3">プロダクトのタイトル</h3>
-                <p>プロダクトの説明</p>
-                </div>
-                    
+                        <p>プロダクトの説明</p>
+                    </div>
+
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                        class="btn-icon btn-icon-xl variant-soft-primary"><i
+                            class="fa-solid fa-laptop-code"></i></span>
+                            <h3 class="h3">プロダクトのタイトル</h3>
+                    <p>プロダクトの説明</p>
+                    </div>
+
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                        class="btn-icon btn-icon-xl variant-soft-primary"><i
+                            class="fa-solid fa-laptop-code"></i></span>
+                            <h3 class="h3">プロダクトのタイトル</h3>
+                    <p>プロダクトの説明</p>
+                    </div>
+
+                    <div class="card card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center"><span
+                        class="btn-icon btn-icon-xl variant-soft-primary"><i
+                            class="fa-solid fa-laptop-code"></i></span>
+                            <h3 class="h3">プロダクトのタイトル</h3>
+                    <p>プロダクトの説明</p>
+                    </div>
+
                 </div>
             </div>
         </div>
