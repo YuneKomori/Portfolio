@@ -3,8 +3,22 @@
 
 </script>
 
-<h2 class="mb-10 mt-14 max-w-2xl px-4 text-2xl font-extrabold leading-none dark:text-white"
-    data-svelte-h="svelte-1t4n0i2">登壇資料</h2>
+<h2 class="h2 mb-10">使用技術</h2>
+<p>開発のきっかけ</p>
+<p>自分の経歴ややってきたこと、開発したもの
+    をまとめるサイトがほしいなと思い制作しました。
+</p>
+<p>インターン先で使ったフレームワークを使用しました。
+    今までCSSフレームワークを使用しての開発をしたことがなかったため、苦戦しましたがいい感じにまとまったと思っています。
+</p>
+<p><a href="https://github.com/YuneKomori/Portfolio">レポジトリ</a></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
 <style>
 
