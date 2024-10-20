@@ -22,12 +22,12 @@
                         </div>
                     </a>
 
-                    <a href="/product/about-cobolab">
+                    <a href="/product/about-randomLunchSelect">
                         <div class="card  card-hover variant-glass p-4 shadow-lg md:p-10 space-y-4 text-center">
                             <span class="btn-icon btn-icon-xl variant-soft-primary"><i
                                     class="fa-solid fa-laptop-code"></i></span>
-                            <h3 class="h3">CoboLab.dev</h3>
-                            <p>自分の経歴やプロダクトをまとめるポートフォリオを作成しました</p>
+                            <h3 class="h3">今日のお昼は何にする？</h3>
+                            <p>インターン先でどうしても何が食べたいか決まらないときに使うアプリ</p>
                         </div>
                     </a>
 
