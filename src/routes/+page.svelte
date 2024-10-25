@@ -29,6 +29,8 @@
 		<!-- レスポンシブなテキストサイズ -->
 		<h2 class="h2 text-2xl md:text-4xl lg:text-6xl font-bold">Hi! I'm YuneKomori👋</h2>
 		<h3 class="h3 text-xl md:text-xl lg:text-xl font-bold">I'm coding leisurely every day🐢🐢🐢<br></h3>
+		<h3 class="h3 text-xl md:text-xl lg:text-xl font-bold">現在開発中です🙏<br></h3>
+
 
 		<!-- ボタンをレスポンシブで横並びに配置 -->
 		<div class="flex flex-col md:flex-row justify-center md:justify-end space-y-2 md:space-y-0 md:space-x-2 w-full">
